@@ -27,8 +27,7 @@
             }
             else if (size >= 45 && size <= 48)
             {
-                Console.ForegroundColor = ConsoleColor.Yellow;
-                Console.BackgroundColor = ConsoleColor.Red;
+                Console.Beep();
             }
             else
             {
