@@ -6,7 +6,7 @@
         {
             Console.WriteLine("Number Control!");
 
-            var number = 201;
+            var number = Console.ReadLine(); 
             if (number > 189)
             {
 
