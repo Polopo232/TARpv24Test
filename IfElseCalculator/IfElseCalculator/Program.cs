@@ -36,6 +36,12 @@ namespace IfElseCalculator
             }
             else if (math == "4")
             {
+                if (num2 == 0)
+                {
+                    Console.WriteLine("Can't devide 0");
+                    return;
+                }
+
                 result = num1 / num2;
                 Console.WriteLine($"{num1} / {num2} = {result}");
             }
